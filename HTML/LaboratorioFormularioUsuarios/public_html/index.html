@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="funciones.js"></script>
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+    </head>
+    <body>
+        <div>
+            <img src="logo-global-mentoring.png" alt="Logo Global Mentoring" class="img1">
+            <h1>Formulario de Usuarios</h1>
+            <img src="logo-universidad-java.png" alt="Logo Universidas Java" class="img2">
+        </div>      
+    </body>
+    <form name="form1" action="recursoEnServidor" method="post" onsubmit="return validaForma(this);">
+        <input type="hidden" name="oculto" value="valorOculto">
+        <table id="tabla">
+            <tr>
+                <td>
+                    Nombre:
+                </td>
+                <td>
+                    <input type="text" name="nombre">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Apellido:
+                </td>
+                <td>
+                    <input type="text" name="apellido">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email:
+                </td>
+                <td>
+                    <input type="email" name="email">
+                </td>
+            </tr>
+            <tr style="text-align: center;">
+                <td>
+                    <input type="reset" value="Reiniciar" class="boton">
+                </td>   
+                <td>
+                    <input type="submit" value="Enviar" class="boton">
+                </td> 
+            </tr>
+        </table>
+    </form>
+</html>

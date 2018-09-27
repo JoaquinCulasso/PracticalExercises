@@ -1,0 +1,47 @@
+/* 
+    Created on : 24-sep-2018, 16:29:00
+    Author     : Joaquin
+*/
+
+body, .default{
+    line-height: 1.6em;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 12px;
+    color: #669;
+}
+
+#one-colum-emphasis{
+    margin: 45px;
+    width: 480px;/*Especificamos el ancho de la tabla*/
+    text-align: left;
+    border-collapse: collapse;/*No deja espacio entre los renglones y columnas de la tabla*/
+}
+
+#one-colum-emphasis caption{
+    font-size: 20px;
+}
+
+#one-colum-emphasis th{
+    font-size: 14px;
+    font-weight: normal;
+    padding: 12px 15px;
+    color: #039;
+}
+
+#one-colum-emphasis td{
+    padding: 10px 15px;
+    color: #669;
+    border-top: 1px solid #e8edff;
+}
+
+.oce-fisrt{
+    background: #d0dafd;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+}
+
+#one-colum-emphasis tr:over td{
+    color: #339;
+    background: #eff2ff;
+}
+

@@ -1,0 +1,42 @@
+/* 
+    Created on : 25-sep-2018, 21:02:25
+    Author     : Joaquin
+*/
+
+div{
+    display: flex;
+    align-items: center;
+
+}
+img{
+    margin: auto;
+}
+
+.img1{
+    width: 290px;
+}
+
+.img2{
+    width: 250px;
+}
+
+body{
+    background: black;
+}
+
+h1{
+    color: #FF5A09;
+    font-size: 3.0em;
+    font-family:"Arial";
+}
+
+td{
+    color: #FF9900;
+}
+
+.boton{
+    background: #F95700;
+    padding: 4px 10px;
+    color: #FFF;
+    border: #C30 1px solid;
+}
