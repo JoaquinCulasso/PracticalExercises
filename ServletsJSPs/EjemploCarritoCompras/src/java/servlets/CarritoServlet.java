@@ -56,5 +56,4 @@ public class CarritoServlet extends HttpServlet {
             out.println("<a href='/EjemploCarritoCompras'>Link para regresar</a>");
         }
     }
-
 }
