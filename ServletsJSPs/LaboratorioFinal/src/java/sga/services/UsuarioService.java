@@ -4,7 +4,7 @@ import sga.eis.dto.Usuario;
 
 /**
  *
- * @author Ubaldo
+ * @author Joaquin
  */
 public interface UsuarioService {
 

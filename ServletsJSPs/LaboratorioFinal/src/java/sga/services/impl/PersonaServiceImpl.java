@@ -18,7 +18,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Ubaldo
+ * @author Joaquin
  */
 public class PersonaServiceImpl implements PersonaService {
 

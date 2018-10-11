@@ -22,7 +22,7 @@ import javax.servlet.http.HttpSession;
 
 /**
  *
- * @author Ubaldo
+ * @author Joaquin
  */
 @WebServlet(name = "ServletControlador", urlPatterns = {"/ServletControlador"})
 public class ServletControlador extends HttpServlet {

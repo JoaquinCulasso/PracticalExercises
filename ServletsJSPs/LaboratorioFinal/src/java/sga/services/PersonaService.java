@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  *
- * @author Ubaldo
+ * @author Joaquin
  */
 public interface PersonaService {
 

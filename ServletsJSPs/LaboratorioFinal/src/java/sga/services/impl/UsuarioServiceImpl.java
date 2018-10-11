@@ -9,7 +9,7 @@ import sga.services.exceptions.BusinessException;
 
 /**
  *
- * @author Ubaldo
+ * @author Joaquin
  */
 public class UsuarioServiceImpl implements UsuarioService {
 

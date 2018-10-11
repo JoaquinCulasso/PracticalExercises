@@ -2,7 +2,7 @@ package sga.services.exceptions;
 
 /**
  *
- * @author Ubaldo
+ * @author Joaquin
  */
 public class BusinessException extends RuntimeException{
 
