@@ -9,19 +9,31 @@ import javax.faces.bean.RequestScoped;
 @RequestScoped
 public class VacanteForm {
 
-  @ManagedProperty(value="#{candidato}")
-  private Candidato candidato;
-
-  public void setCandidato(Candidato candidato) {
-    this.candidato = candidato;
-  }
-
-  public String enviar() {
-    if (this.candidato.getNombre().equals("Juan")) {
-      return "exito";
-    } else {
-      return "fallo";
+    /**
+     * Creates a new instance of VacanteForm
+     */
+    public VacanteForm() {
     }
-  }
-}
 
+    @ManagedProperty(value = "#{candidato}")
+    private Candidato candidato;
+
+    /**
+     * @return the candidato
+     */
+    public Candidato getCandidato() {
+        return candidato;
+    }
+
+    public void setCandidato(Candidato candidato) {
+        this.candidato = candidato;
+    }
+
+    public String enviar() {
+        if (this.getCandidato().getNombre().equals("Juan")) {
+            return "exito";//exito.xhtml
+        } else {
+            return "fallo";//fallo.xhtml
+        }
+    }
+}

@@ -5,14 +5,15 @@
  */
 package beans.model;
 
-import javax.inject.Named;
-import javax.enterprise.context.RequestScoped;
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
 
 /**
  *
  * @author Joaquin
  */
-@Named(value = "candidato")
+
+@ManagedBean
 @RequestScoped
 public class Candidato {
 
