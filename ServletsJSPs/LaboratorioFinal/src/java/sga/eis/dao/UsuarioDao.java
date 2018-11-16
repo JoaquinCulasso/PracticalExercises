@@ -8,6 +8,7 @@
 
 package sga.eis.dao;
 
+import java.sql.Connection;
 import sga.eis.dto.*;
 import sga.eis.exceptions.*;
 
@@ -67,5 +68,7 @@ public interface UsuarioDao
 	 * Returns all rows from the usuario table that match the specified arbitrary SQL statement
 	 */
 	public Usuario[] findByDynamicWhere(String sql, Object[] sqlParams) throws UsuarioDaoException;
+
+    public void setUserConn(Connection conn);
 
 }
